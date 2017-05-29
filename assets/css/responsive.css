@@ -1,0 +1,108 @@
+@media screen and (min-width: 768px) {
+    header .top .menu .menu-mobile {
+        display: none;
+    }
+
+    header .top .menu ul li:last-child a {
+        background-color: #46236a;
+        background-image: url(../img/logo-small.png);
+        padding: 120px 15px 10px 14px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: calc(100% - 30px);
+        font-weight: 700;
+        font-size: 1.15em;
+        text-align: left;
+        width: 135px;
+        font-style: initial;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .top .menu .menu-mobile {
+        display: block;
+        color: #FFF;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 2em;
+    }
+
+    header .top .logo {
+        margin-top: 15px;
+    }
+
+    header .top .logo img {
+        max-height: 80px;
+    }
+
+    header .top .menu ul {
+        position: absolute;
+        top: 55px;
+        right: 15px;
+        background-color: #00a8a3;
+        padding: 20px 15px 10px;
+        display: none;
+    }
+
+    header .top .menu .menu-mobile.open + ul {
+        display: block;
+    }
+
+    header .top .menu ul li {
+        display: block;
+    }
+
+    header .top .menu ul li a {
+        padding: 0 0 10px;
+        margin: 0;
+    }
+
+    header .middle {
+        padding: 100px 0 150px;
+    }
+
+    header .middle a.btn-call-to-action {
+        padding: 20px 50px;
+    }
+
+    section.bottom-header img.fixed {
+        display: none;
+    }
+
+    section.bottom-header {
+        padding: 80px 0;
+    }
+
+    section.service {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    section.service p.info {
+        margin: 50px 0;
+    }
+
+    section.contact {
+        padding: 80px 0;
+    }
+
+    section.contact .top p.caption {
+        margin: 0 0 40px;
+        text-align: center;
+    }
+
+    section.contact .top p.caption br {
+        display: none;
+    }
+
+    section.contact .middle fieldset.input {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    footer {
+        padding: 100px 0;
+    }
+}

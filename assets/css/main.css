@@ -1,0 +1,306 @@
+@font-face {
+    font-family: SohoGothicPro;
+    src: url(../fonts/soho-gothic-pro-regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SohoGothicPro;
+    src: url(../fonts/soho-gothic-pro-bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: SohoGothicPro;
+    src: url(../fonts/soho-gothic-pro-light.otf);
+    font-weight: 300;
+}
+
+body {
+    font-family: SohoGothicPro, sans-serif;
+}
+
+header {
+    background-image: url(../img/bg/bg-header.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .top {
+}
+
+header .top .logo {
+    margin-top: 52px;
+}
+
+header .top .menu {
+}
+
+header .top .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+header .top .menu ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header .top .menu ul li a {
+    font-size: 1.429em;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 40px;
+    position: relative;
+    display: block;
+    padding: 94px 0 0 0;
+}
+
+header .top .menu ul li a:hover:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #00a8a3;
+}
+
+header .top .menu ul li:last-child a:after {
+    display: none;
+}
+
+header .middle {
+    padding: 150px 0 90px;
+}
+
+header .middle h1 {
+    font-size: 3.571em;
+    color: #FFF;
+    font-weight: 300;
+    margin: 0 0 20px;
+    font-style: italic;
+    line-height: 55px;
+}
+
+header .middle h1 strong {
+    display: block;
+    font-weight: 700;
+}
+
+header .middle p.caption {
+    font-size: 1.571em;
+    color: #FFF;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .middle a.btn-call-to-action {
+    font-size: 1.571em;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: #46236a;
+    padding: 20px 25px;
+    display: inline-block;
+    border-radius: 15px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+header .middle .owl-dots {
+    display: block !important;
+    position: absolute;
+    left: -585px;
+    bottom: -60px;
+    z-index: 100;
+}
+
+header .middle .owl-dots .owl-dot {
+    width: 13px;
+    height: 13px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+header .middle .owl-dots .owl-dot.active {
+    background-color: #46236a;
+}
+
+section.bottom-header {
+    background-image: url(../img/bg/bg-header-bottom.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 100px;
+}
+
+section.bottom-header img.fixed {
+    position: absolute;
+    top: -530px;
+    left: -30px;
+}
+
+section.bottom-header p.info {
+    font-size: 1.714em;
+    color: #FFF;
+    font-weight: 300;
+    font-style: italic;
+}
+
+section.bottom-header p.info strong {
+    font-weight: 400;
+    color: #00A8A3;
+}
+
+section.service {
+    padding: 150px 0;
+}
+
+section.service h2 {
+    font-size: 2.750em;
+    margin: 0 0 90px;
+    text-transform: uppercase;
+    color: #46236A;
+    font-style: italic;
+}
+
+section.service p.info {
+    font-size: 1.750em;
+    font-style: italic;
+    font-weight: 300;
+    margin: 50px 0 0;
+    color: #838383;
+}
+
+section.service .item {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 3px);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section.service .item img {
+}
+
+section.service .item h5 {
+    font-size: 1.250em;
+    margin: 15px 0 0;
+    color: #4D4C4D;
+    text-transform: uppercase;
+}
+
+section.contact {
+    padding: 70px 0 50px;
+    background-color: #E6E7E8;
+}
+
+section.contact .top h2 {
+    font-size: 2.750em;
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    color: #46236A;
+    font-style: italic;
+}
+
+section.contact .top {
+    margin-bottom: 50px;
+}
+
+section.contact .top p.caption {
+    font-size: 2.750em;
+    color: #46236A;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    line-height: 45px;
+}
+
+section.contact .top p.info {
+    font-size: 1.375em;
+    color: #6D6E70;
+    margin: 0;
+    font-style: italic;
+}
+
+section.contact .middle {
+}
+
+section.contact .middle fieldset {
+    margin: 0 0 10px;
+}
+
+section.contact .middle fieldset.input {
+    display: inline-block;
+    width: calc(100% / 3 - 15.3px);
+    margin-right: 20px;
+}
+
+section.contact .middle fieldset:nth-child(3) {
+    margin-right: 0;
+}
+
+section.contact .middle fieldset input {
+    font-size: 0.938em;
+    color: #4D4C4D;
+    padding: 0 15px;
+    height: 30px;
+    border: 1px solid #00a8a3;
+    outline: none;
+    width: 100%;
+    font-weight: 300;
+}
+
+section.contact .middle fieldset input::-webkit-input-placeholder {
+    color: #4D4C4D;
+}
+
+section.contact .middle fieldset textarea {
+    font-size: 0.938em;
+    color: #4D4C4D;
+    padding: 15px;
+    border: 1px solid #00a8a3;
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 100px;
+    font-weight: 300;
+}
+
+section.contact .middle fieldset textarea::-webkit-input-placeholder {
+    color: #4D4C4D;
+}
+
+section.contact .middle button {
+    font-size: 1.250em;
+    border: 0;
+    color: #E6E7E8;
+    padding: 12.5px 105px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #46236A;
+    margin: 0 auto;
+    display: block;
+}
+
+section.contact .bottom {
+    margin-top: 40px;
+}
+
+footer {
+    background-image: url(../img/bg/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 200px 0 290px;
+}
