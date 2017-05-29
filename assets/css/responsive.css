@@ -44,6 +44,7 @@
         background-color: #00a8a3;
         padding: 20px 15px 10px;
         display: none;
+        z-index: 100;
     }
 
     header .top .menu .menu-mobile.open + ul {
@@ -78,6 +79,10 @@
     section.service {
         padding: 80px 0;
         text-align: center;
+    }
+
+    section.service img {
+        max-width: 80%;
     }
 
     section.service p.info {
